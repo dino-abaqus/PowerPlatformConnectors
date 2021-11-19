@@ -1,7 +1,3 @@
-## Name of connector 
-allGeo
-
-## Description
 allGeo is a leading provider of field service management for mid-size enterprise
 businesses to achieve excellence in field service operations by providing tools to improve
 operations payroll processes. The allGeo platform enables businesses to create various
@@ -12,14 +8,16 @@ Reporting. The allGeo platform can readily integrate with your CRM, ERP and payr
 systems to enable easy flow of data from the field to your back-office systems.
 
 ## Prerequisites
-You will need the following to proceed:
-* A Microsoft Power Apps or Power Automate plan with custom connector feature
 
-## Building the connector
-Below is an overview of how fields in your Microsoft Dynamics will be mapped in the allGeo
-system.
+Account on allGeo portal.
 
-## Supported Operations
+## How to get credentials
+
+Trial activation can be done trough simple registration form on site https://www.allgeo.com/login
+For additional information please contact our sales team sales@abaq.us.
+
+## Get started with your connector
+
 The connector supports the following operations:
 * `Login`: Logs in to allGeo platform.
 * `Create Work Orders`: Work orders are created on the allGeo platform. A Work Order is a
@@ -31,3 +29,12 @@ in the allGeo system.
 * `Update Time Clock`: The various time clock stages of your field employees are updated in
 real time in the allGeo system.
 * `Delete Job-Site`: Job-Site(s) is deleted on allGeo platform.
+
+## Known issues and limitations
+
+Current limitation of the is operation Login where Login information details are needed.
+Currently we are implementing OAuth which will enable simple and reliable integration.
+
+## FAQ
+
+Please contact our support@abaq.us team if you have any questions.
